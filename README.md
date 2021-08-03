@@ -12,9 +12,9 @@ The M2H2 dataset is compiled from a famous TV show "Shrimaan Shrimati Phir Se" (
 
 ## Text Data
 
-:fire::fire::fire: ***The ``Raw Text\Ep-NUMBER.tsv`` acts as a master annotation file which does not only contain the textual data but also contains other metadata as described below. It also contains the manually annotated labels of the utterances. Using the Episode id and scene id, one can map the utterances in the ``Raw Text`` folder to the corresponding audio and visual segments in ``Raw Audio`` and ``Raw Visual``. This should result in multimodal data. The ``Label`` column in the TSV files e.g., ``Raw Text\Ep-NUMBER.tsv`` contains the desired manually annotated labels for each utterance.***
+:fire::fire::fire: ***The ``Raw-Text\Ep-NUMBER.tsv`` acts as a master annotation file which does not only contain the textual data but also contains other metadata as described below. It also contains the manually annotated labels of the utterances. Using the Episode id and scene id, one can map the utterances in the ``Raw-Text`` folder to the corresponding audio and visual segments in ``Raw-Audio`` and ``Raw-Visual``. This should result in multimodal data. The ``Label`` column in the TSV files e.g., ``Raw-Text\Ep-NUMBER.tsv`` contains the desired manually annotated labels for each utterance.***
 
-The text data are stored in TSV format. Each of the file is named as ``Raw Text\Ep-NUMBER.tsv``. Here the ``NUMBER`` is episode number which one should use to map with the corresponding audio and visual segments. The text data contains the following fields:
+The text data are stored in TSV format. Each of the file is named as ``Raw-Text\Ep-NUMBER.tsv``. Here the ``NUMBER`` is episode number which one should use to map with the corresponding audio and visual segments. The text data contains the following fields:
 
 ```
 Scenes: The scene id. It will match the corresponding audio and visual segments.
@@ -27,15 +27,15 @@ Speaker: The format is "Speaker,listener". It has the form of "Speaker_name,utte
 ```
 ## Audio Data
 
-Every episode has a dedicated folder e.g., ``Raw Audio/22/`` contains all the annotated audio samples for Episode no. 22.
+Every episode has a dedicated folder e.g., ``Raw-Audio/22/`` contains all the annotated audio samples for Episode no. 22.
 
-For every episode, each scene has a dedicated folder e.g., ``Raw Audio/22/Scene_1`` contains all the annotated audio samples for Episode no. 22 Scene 1.
+For every episode, each scene has a dedicated folder e.g., ``Raw-Audio/22/Scene_1`` contains all the annotated audio samples for Episode no. 22 Scene 1.
 
 ## Visual Data
 
-Every episode has a dedicated folder e.g., ``Raw Visual/22/`` contains all the annotated visual samples for Episode no. 22.
+Every episode has a dedicated folder e.g., ``Raw-Visual/22/`` contains all the annotated visual samples for Episode no. 22.
 
-For every episode, each scene has a dedicated folder e.g., ``Raw Visual/22/Scene_1`` contains all the annotated visual samples for Episode no. 22 Scene 1.
+For every episode, each scene has a dedicated folder e.g., ``Raw-Visual/22/Scene_1`` contains all the annotated visual samples for Episode no. 22 Scene 1.
 
 # Baselines
 
