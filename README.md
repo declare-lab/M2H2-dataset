@@ -1,4 +1,4 @@
-# M2H2: A Multimodal Multiparty Hindi Dataset For HumorRecognition in Conversations
+# M2H2: A Multimodal Multiparty Hindi Dataset For Humor Recognition in Conversations
 
 :zap: :zap: :zap: Baseline Codes will be released soon!
 
