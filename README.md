@@ -8,6 +8,8 @@ The M2H2 dataset is compiled from a famous TV show "Shrimaan Shrimati Phir Se" (
 
 # Data Format
 
+![Alt text](dataset_samples.png?raw=true "Sample")
+
 ## Text Data
 
 :fire::fire::fire: ***The ``Raw Text\Ep-NUMBER.tsv`` acts as a master annotation file which does not only contain the textual data but also contains other metadata as described below. It also contains the manually annotated labels of the utterances. Using the Episode id and scene id, one can map the utterances in the ``Raw Text`` folder to the corresponding audio and visual segments in ``Raw Audio`` and ``Raw Visual``. This should result in multimodal data. The ``Label`` column in the TSV files e.g., ``Raw Text\Ep-NUMBER.tsv`` contains the desired manually annotated labels for each utterance.***
