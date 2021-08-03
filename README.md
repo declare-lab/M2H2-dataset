@@ -2,7 +2,7 @@
 
 :zap: :zap: :zap: Baseline Codes will be released soon!
 
-:fire::fire::fire: [Read the paper](./)
+:fire::fire::fire: [Read the paper](./M2H2-paper.pdf)
 
 The M2H2 dataset is compiled from a famous TV show "Shrimaan Shrimati Phir Se" (Total of 4.46 hours in length) and annotated them manually. We make groups of these samples (utterances) based on their context into scenes. Each utterance in each scene consists of a label indicating humor of that utterance i.e., humor or non-humor. Besides, each utterance is also annotated with its speaker and listener information. In multiparty conversation, listener identification poses a great challenge. In our dataset, we define the listener as the party in the conversation to whom the speaker is replying. Each utterance in each scene is coupled with its context utterances, which are preceding turns by the speakers participating in the conversation. It also contains multi-party conversations that are more challenging to classify than dyadic variants.
 
@@ -43,5 +43,4 @@ For every episode, each scene has a dedicated folder e.g., ``Raw-Visual/22/Scene
 
 # Citation
 
-Dushyant Singh Chauhan, Gopendra Vikram Singh, Navonil Majumder, Amir Zadeh,, Asif Ekbal, Pushpak Bhattacharyya, Louis-philippe Morency, and Soujanya Poria. 2021. M2H2: A Multimodal MultipartyHindi Dataset For Humor Recognition in Conversations. In ICMI ’21: 23rd ACM International Conference on Multimodal Interaction, Montreal, Canada.
-ACM, New York, NY, USA, 5 pages.
+Dushyant Singh Chauhan, Gopendra Vikram Singh, Navonil Majumder, Amir Zadeh,, Asif Ekbal, Pushpak Bhattacharyya, Louis-philippe Morency, and Soujanya Poria. 2021. [M2H2: A Multimodal MultipartyHindi Dataset For Humor Recognition in Conversations. In ICMI ’21: 23rd ACM International Conference on Multimodal Interaction](./M2H2-paper.pdf), Montreal, Canada. ACM, New York, NY, USA, 5 pages.
