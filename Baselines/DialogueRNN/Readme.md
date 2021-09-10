@@ -5,9 +5,9 @@ M2H2 dataset: python m2h2.py
 
 Command-Line Arguments
 
---no-cuda: Does not use GPU
+  --no-cuda: Does not use GPU
 
---lr: Learning rate
+  --lr: Learning rate
 
 --l2: L2 regularization weight
 
