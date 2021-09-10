@@ -25,12 +25,12 @@ In m2h2.py line comment line 87 to 94 and line  197 to deactivate MISA and uncom
 Requirements
 ====================================================
 
-1.Python 3
-2.PyTorch 1.0
-3.Pandas 0.23
-4.Scikit-Learn 0.20
-5.TensorFlow (optional; required for tensorboard)
-6.tensorboardX (optional; required for tensorboard)
+Python 3
+PyTorch 1.0
+Pandas 0.23
+Scikit-Learn 0.20
+TensorFlow (optional; required for tensorboard)
+tensorboardX (optional; required for tensorboard)
 
 
 
