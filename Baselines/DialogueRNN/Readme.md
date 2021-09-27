@@ -24,8 +24,6 @@ In m2h2.py line comment line 87 to 94 and line  197 to deactivate MISA and uncom
 
 You can download this file from [here](https://drive.google.com/file/d/1TFtoJMAPYoJdnXKsQpNgGXU3rSSMell6/view?usp=sharing)
 
-In m2h2.py line comment line 87 to 94 and line  197 to deactivate MISA and uncomment line 100 and 198. (join.py and utils folder are required to working with MISA)
-
 ## Requirements
 
 
