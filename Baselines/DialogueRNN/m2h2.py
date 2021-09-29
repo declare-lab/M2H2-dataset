@@ -9,7 +9,7 @@ from torch.utils.data.sampler import SubsetRandomSampler
 from sklearn.metrics import f1_score, confusion_matrix, accuracy_score, classification_report
 from dataloader import *
 from join import MISA
-from model import BiModel, Model, MaskedNLLLoss
+from model import BiModal, Model, MaskedNLLLoss
 import config
 from sklearn.model_selection import train_test_split
 
@@ -201,7 +201,7 @@ if __name__ == '__main__':
     D_e = 300
     D_h = 300
 
-    model = BiModel(D_m, D_g, D_p, D_e, D_h,
+    model = BiModal(D_m, D_g, D_p, D_e, D_h,
                     n_classes=n_classes,
                     listener_state=args.active_listener,
                     context_attention=args.attention,
