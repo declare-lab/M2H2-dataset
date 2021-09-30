@@ -1,6 +1,6 @@
 # M2H2: A Multimodal Multiparty Hindi Dataset For Humor Recognition in Conversations
 
-:zap: :zap: :zap: Baseline Codes will be released soon!
+:zap: :zap: :zap: Baseline Code has been released!
 
 :fire::fire::fire: [Read the paper](https://arxiv.org/abs/2108.01260)
 
